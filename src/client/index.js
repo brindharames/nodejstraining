@@ -35,6 +35,6 @@ class App extends React.Component {
         <button onClick={this.decrement}>-</button>
       </div>
     }
-  }
+}
 
-  render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
